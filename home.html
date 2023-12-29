@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <div class="container">
-        <h1>Welcome to the Home Page</h1>
+        <div id="searchContainer">
+            <form id="searchForm">
+                
+                <label for="searchInput">Movies</label>
+                
+                <input type="text" id="searchInput" placeholder="Enter movie title">
+                <button type="button" id="searchButton">Search</button>
+            </form>
+        </div>        
+        <p id="usernameDisplay"></p>
+        
         <ul id="moviesList"></ul>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

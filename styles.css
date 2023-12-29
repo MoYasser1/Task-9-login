@@ -80,3 +80,57 @@ h4 a:hover {
         width: 100%;
     }
 }
+/* Add the following code at the end of the existing CSS code */
+
+#searchContainer {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#searchInput, #searchContainer button {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+#searchContainer button {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#searchContainer button:hover {
+    background-color: #008ca2;
+}
+
+.container {
+    text-align: center;
+}
+
+#moviesList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#moviesList li {
+    margin: 10px;
+    text-align: center;
+}
+
+#moviesList img {
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    color: #ffffff;
+}
+
